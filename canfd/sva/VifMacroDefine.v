@@ -1,0 +1,4 @@
+`define CANFD_TOP_VIF     tb_top.DUT
+
+`define TX82_CGRA_DV_UT_CANPHY_VIF     `CANFD_TOP_VIF
+`define TX82_CGRA_DV_UT_UCSPI_VIF     `CANFD_TOP_VIF

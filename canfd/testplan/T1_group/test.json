@@ -1,0 +1,50 @@
+{
+"canfd_T_01_01_reg_rw_test": {
+    "uvm_testname": "canfd_T_01_01_reg_rw_test",
+    "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM",
+    "tcl": "$VERIFY_HOME/tcl/wave.tcl",
+    "timescale": "1ns/1ps"
+},
+"canfd_T_01_02_srst_test": {
+    "uvm_testname": "canfd_T_01_02_srst_test",
+    "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM",
+    "tcl": "$VERIFY_HOME/tcl/wave.tcl",
+    "timescale": "1ns/1ps"
+},
+"canfd_T_01_03_addr_test": {
+    "uvm_testname": "canfd_T_01_03_addr_test",
+    "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM",
+    "tcl": "$VERIFY_HOME/tcl/wave.tcl",
+    "timescale": "1ns/1ps"
+},
+"canfd_T_01_04_wprot_test": {
+    "uvm_testname": "canfd_T_01_04_wprot_test",
+    "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM",
+    "tcl": "$VERIFY_HOME/tcl/wave.tcl",
+    "timescale": "1ns/1ps"
+},
+"canfd_T_02_01_intr_trig_test": {
+    "uvm_testname": "canfd_T_02_01_intr_trig_test",
+    "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM",
+    "tcl": "$VERIFY_HOME/tcl/wave.tcl",
+    "timescale": "1ns/1ps"
+},
+"canfd_T_02_02_intr_msk_test": {
+    "uvm_testname": "canfd_T_02_02_intr_msk_test",
+    "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM",
+    "tcl": "$VERIFY_HOME/tcl/wave.tcl",
+    "timescale": "1ns/1ps"
+},
+"canfd_T_02_03_intr_clr_test": {
+    "uvm_testname": "canfd_T_02_03_intr_clr_test",
+    "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM",
+    "tcl": "$VERIFY_HOME/tcl/wave.tcl",
+    "timescale": "1ns/1ps"
+},
+"canfd_T_02_04_intr_lvl_test": {
+    "uvm_testname": "canfd_T_02_04_intr_lvl_test",
+    "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM",
+    "tcl": "$VERIFY_HOME/tcl/wave.tcl",
+    "timescale": "1ns/1ps"
+}
+}

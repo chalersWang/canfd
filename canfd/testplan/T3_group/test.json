@@ -1,0 +1,11 @@
+{
+"canfd_R_01_01_fifo_rx_test":     {"uvm_testname": "canfd_R_01_01_fifo_rx_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_R_01_02_fifo_depth_test":  {"uvm_testname": "canfd_R_01_02_fifo_depth_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_R_01_03_fifo_ovf_test":    {"uvm_testname": "canfd_R_01_03_fifo_ovf_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_R_01_04_fifo_wm_test":     {"uvm_testname": "canfd_R_01_04_fifo_wm_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_R_01_05_fifo_rel_test":    {"uvm_testname": "canfd_R_01_05_fifo_rel_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_R_01_06_flt_std_test":     {"uvm_testname": "canfd_R_01_06_flt_std_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_R_01_07_flt_ext_test":     {"uvm_testname": "canfd_R_01_07_flt_ext_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_R_01_08_flt_mask_test":    {"uvm_testname": "canfd_R_01_08_flt_mask_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_R_01_09_flt_indep_test":   {"uvm_testname": "canfd_R_01_09_flt_indep_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"}
+}

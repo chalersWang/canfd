@@ -1,0 +1,13 @@
+{
+"canfd_E_01_01_err_berr_test":    {"uvm_testname": "canfd_E_01_01_err_berr_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_01_02_err_fberr_test":   {"uvm_testname": "canfd_E_01_02_err_fberr_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_01_03_err_ster_test":    {"uvm_testname": "canfd_E_01_03_err_ster_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_01_04_err_fster_test":   {"uvm_testname": "canfd_E_01_04_err_fster_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_01_05_err_crc_test":     {"uvm_testname": "canfd_E_01_05_err_crc_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_01_06_err_fmer_test":    {"uvm_testname": "canfd_E_01_06_err_fmer_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_01_08_err_ack_test":     {"uvm_testname": "canfd_E_01_08_err_ack_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_02_01_ecnt_tec_test":    {"uvm_testname": "canfd_E_02_01_ecnt_tec_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_02_02_ecnt_rec_test":    {"uvm_testname": "canfd_E_02_02_ecnt_rec_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_02_03_ecnt_pass_test":   {"uvm_testname": "canfd_E_02_03_ecnt_pass_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_E_02_05_ecnt_warn_test":   {"uvm_testname": "canfd_E_02_05_ecnt_warn_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"}
+}

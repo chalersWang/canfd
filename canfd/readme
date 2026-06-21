@@ -1,0 +1,34 @@
+//the operation of flow
+
+1: the flow/cmd of running case
+	(1) "source sourceme"                                       //Setting environment variables
+	(2) "run/xrun -l"                                           //Displays the current case list
+	(3) "run/xrun -g casegroup -t case -c"                      //compile the case
+	(4) "run/xrun -g casegroup -t case -s"                      //Simulate the case
+	(5) "run/xrun -g casegroup -t case -s --fsdb"               //Simulate the case,with fsdb,random seed
+	(6) "run/xrun -g casegroup -t case -s --fsdb --seed=1"      //Simulate the case,with fsdb,specific seed 1
+	(7) "run/xrun -g casegroup -t case -s --fsdb -n 10"         //Simulate the case,with fsdb,random seed,repeat 10
+
+2: the cmd/flow of regression case
+	(1) "run/xrun -g casegroup -c"                              //compile the all case of group 
+	(2) "run/xrun -g casegroup -s"                              //Simulate the all case of group,without fsdb,random seed
+	(3) "run/xrun -g casegroup -s -m"                           //Simulate the all case of group,without fsdb,random seed,email results
+
+3: the cmd/flow of coverage
+	(1) "run/xrun -g casegroup -c --cov"                        //compile the all case of group,with coverage
+	(2) "run/xrun -g casegroup -s --cov"                        //Simulate the all case of group,without fsdb,random seed,with coverage
+	(3) "run/xrun -g casegroup -s --cov -n 10"                  //Simulate the all case of group,without fsdb,random seed,repeat 10,with coverage
+	(4) "xrun --covmerge"                                       //merge the all coverage
+	(4) "xrun --opencov"                                        //open the coverage after merge
+
+4: the cmd of hellp
+	(1) "run/xrun -h"                                           //Displays the detailed command function
+
+===========================================================================================================
+NOTE:
+    Before running the environment for the first time, you may need to convert the following three files to unix format:
+    gvim After opening the file, run "set ff=unix" on the command line
+    (1)run/xrun
+    (2)cfg/comp_base.cfg
+    (3)cfg/sim_base.cfg
+    (4)cfg/xx.cfg

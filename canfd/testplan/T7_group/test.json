@@ -1,0 +1,17 @@
+{
+"canfd_S_01_01_tsr_cnt_test":     {"uvm_testname": "canfd_S_01_01_tsr_cnt_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_S_01_03_tsr_ovf_test":     {"uvm_testname": "canfd_S_01_03_tsr_ovf_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_S_03_01_tdc_off_test":     {"uvm_testname": "canfd_S_03_01_tdc_off_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_S_03_02_tdc_bnd_test":     {"uvm_testname": "canfd_S_03_02_tdc_bnd_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_01_01_stress_tx_test":   {"uvm_testname": "canfd_C_01_01_stress_tx_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_01_02_stress_rx_test":   {"uvm_testname": "canfd_C_01_02_stress_rx_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_01_03_stress_bidir_test":{"uvm_testname": "canfd_C_01_03_stress_bidir_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_01_05_stress_err_test":  {"uvm_testname": "canfd_C_01_05_stress_err_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_02_01_corner_d0_test":   {"uvm_testname": "canfd_C_02_01_corner_d0_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_02_03_corner_d64_test":  {"uvm_testname": "canfd_C_02_03_corner_d64_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_02_04_corner_id0_test":  {"uvm_testname": "canfd_C_02_04_corner_id0_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_02_05_corner_id11_test": {"uvm_testname": "canfd_C_02_05_corner_id11_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_02_06_corner_id29_test": {"uvm_testname": "canfd_C_02_06_corner_id29_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_02_08_corner_1m_test":   {"uvm_testname": "canfd_C_02_08_corner_1m_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"},
+"canfd_C_02_09_corner_8m_test":   {"uvm_testname": "canfd_C_02_09_corner_8m_test", "sim_args": "+UVM_VERBOSITY=UVM_MEDIUM", "timescale": "1ns/1ps"}
+}

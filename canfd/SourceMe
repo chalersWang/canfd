@@ -1,0 +1,53 @@
+#! /usr/env bash
+##=======================	[Cmodel Tools]	=======================##
+##=======================	[EDA env setting]	====================##
+#VCS/VERDI tools
+export TOOLS_PATH=/network/tools/synopsys
+export VCS_HOME=${TOOLS_PATH}/vcs_mx/vcs_mx_vN-2017.12-SP2
+export VERDI_HOME=${TOOLS_PATH}/verdi/verdi_vN-2017.12-SP2
+export LD_LIBRARY_PATH=${VERDI_HOME}/share/PLI/lib/LINUX64:${LD_LIBRARY_PATH}
+#export LD_LIBRARY_PATH=${VERDI_HOME}/share/PLI/lib/LINUXAMD64:${LD_LIBRARY_PATH}
+export LM_LICENSE_FILE=27020@192.168.1.50:27000:@eda51
+export CDS_LIC_FILE=5280@eda93
+export DW_FILE_PATH="${TOOLS_PATH}/syn_vM-2016.12-SP3.old"
+#export LEDA_PATH=${TOOLS_PATH}/G-2012.09
+export PATH=$PATH:$VCS_HOME/bin:$VERDI_HOME/bin
+#export PS1="[\u@\h \w]"
+export PS1="[\u@\h \W]$"
+#VIP
+export DESIGNWARE_HOME=/networkpub/project/VIP/synopsys
+export LIB_PATH=/network/project/public/uvm_vip
+#export VIP_APB_DIR=${LIB_PATH}/apb_lib
+#export VIP_AHB_DIR=${LIB_PATH}/ahb_lib
+#export VIP_AXI_DIR=${LIB_PATH}/axi_lib
+##=======================	[RTL/TB path setting]	=================##
+export VERIFY_HOME=$PWD
+export NPU_PRJ_PATH=${VERIFY_HOME}/../../..
+export RTL_HOME=${PRJ_HOME}/rtl
+export TESTPLAN_HOME=${VERIFY_HOME}/testplan
+export JSON_HOME=${VERIFY_HOME}/json
+export TOOLS_HOME=${VERIFY_HOME}/run
+export PATH=$PATH:$JSON_HOME
+export PATH=$PATH:$TOOLS_HOME
+export TEST_PARALLEL_NUM=8
+#export MY_FSDB_DUMP=on
+export EMAIL_SUBJECT="XX UT/IT VERIFY REGRESSION"
+export EMAIL_RECEIVES="wangxinxin@dev.com"
+# add the xx.so of yourself
+#export LD_LIBRARY_PATH=${VERIFY_HOME}/reference/xx/3rd_path/systemc/lib64:${LD_LIBRARY_PATH}
+##=======================	[compile setting]	===========##
+##Sub Core RISCV Tools
+# export RISCV_TOOLS=${VERIFY_HOME}/../..
+# export PATH=$PATH:RISCV_TOOLS
+##=======================	[Your's Alias]	=======================##
+alias cdrtl="cd ${RTL_HOME}"
+#alias cdut="cd ${VERIFY_HOME}"
+#alias cdit="cd ${VERIFY_HOME}"
+#alias cdst="cd ${VERIFY_HOME}"
+#alias openvpd="dve -full64 sim.vpd&"
+#alias openfsdb="verdi -ssf sim.fsdb&"
+alias openvpd="bsub -Is -q rca.q dve -full64 sim.vpd&"
+alias openfsdb="bsub -Is -q rca.q verdi -ssf sim.fsdb&"
+alias showcoverage_dve="dve -full64 -cov -dir cov_merge.vdb&"
+alias showcoverage_verdi="verdi -cov -covdir cov_merge.vdb&"
+echo "Bootenv Finish"
